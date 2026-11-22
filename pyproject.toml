@@ -1,7 +1,7 @@
 [project]
 name = "ucu-odometry-implementation"
 version = "0.1.0"
-description = "Add your description here"
+description = "Visual odometry via the essential matrix (SVD)"
 readme = "README.md"
 authors = [
     { name = "bohdan", email = "howchromium@gmail.com" },
@@ -12,7 +12,10 @@ requires-python = ">=3.14"
 dependencies = []
 
 [project.scripts]
-ucu-odometry-implementation = "ucu_odometry_implementation:main"
+vo = "vo:main"
+
+[tool.uv.build-backend]
+module-name = "vo"
 
 [build-system]
 requires = ["uv_build>=0.12.2,<0.13.0"]

@@ -1,0 +1,19 @@
+data/The UZH FPV Dataset/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.DS_Store
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# regenerable with `make features`
+data/matches/*
+!data/matches/.gitkeep
