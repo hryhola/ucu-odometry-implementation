@@ -67,3 +67,7 @@ notebooks/      experiments, presets and pipelines
 Subclass the base class (`FeatureExtractor`, `FeatureMatcher` or `EssentialEstimator`) in a new file in the
 matching folder and register it with `@REGISTRY.register("name")`. It then appears in `make list` and can be
 selected with `EXTRACTOR=`, `MATCHER=` or `ESTIMATORS=`.
+
+## Data
+
+Link to Google Drive with data: https://drive.google.com/drive/folders/1387Y6vx0V5gaX76389Se8x_WXD4yq8U5?usp=drive_link
